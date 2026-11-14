@@ -1,8 +1,9 @@
 # Private study plan (progress tracker for sessions)
 plan.md
 
-# Claude Code local settings
-.claude/settings.local.json
+# Local tooling files
+.claude/
+CLAUDE.md
 
 # Java / build output
 target/
