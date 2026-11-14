@@ -1,0 +1,40 @@
+# Private study plan (progress tracker for sessions)
+plan.md
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Java / build output
+target/
+build/
+out/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+hs_err_pid*
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+.nx/
+npm-debug.log*
+
+# IDEs
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
